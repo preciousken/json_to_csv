@@ -18,9 +18,3 @@ csvWriter.writeRecords(records)       // returns a promise
     .then((res) => {
         console.log('Converted to csv');
     });
-
-// This will produce a file path/to/file.csv with following contents:
-//
-//   NAME,LANGUAGE
-//   Bob,"French, English"
-//   Mary,English
