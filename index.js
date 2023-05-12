@@ -20,7 +20,6 @@ const csvWriter = createCsvWriter({
     ]
 });
 
-
 const records = UserDetails.map(user => {
     // converting date to readable dates
     const date = new Date(user.createdAt);
